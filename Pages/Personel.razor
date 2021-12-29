@@ -1,0 +1,61 @@
+@page "/personel"
+ @using vsCodePersonelBlazorApp.Shared;
+ <h1>Welcom to Personel Page Please Login</h1>
+  <input type="text" @bind-value="tempUsername"/>
+    <input type="password" @bind-value="tempPassword" />
+    @* <button type="submit" @onclick="@(()=> loginControl=true)">Login in Present</button> *@
+    <button type="submit" @onclick="@(loginControlMethod)">Login in Present</button>
+    <p></p>
+    @* <p>TempUsername:@tempUsername</p>
+    <p>TempPassword:<input type="password"@bind-value="tempPassword"/></p> *@
+    <p>Status:@loginControl</p>
+    @if (loginControl)
+    {
+        loginControl=false;
+        <table class="table">
+            <thead class="thead-dark">
+            <tr>
+            <th>Name Surname</th>
+            <th>Group Id</th>
+            <th>Github_Link</th>
+            </tr>
+             </thead>
+             @foreach (var item in personelList)
+             {  <tr>
+                 <td>@item.Name_Surname</td>
+                 <td>@item.Department</td>
+                 <td>@item.Github</td>
+                </tr>
+             }
+           
+        </table>
+    }
+    @code {
+        private string tempUsername{get;set;}
+        private string tempPassword { get; set; }
+        public bool loginControl { get; set; }
+        PersonelInfo Info=null;
+        List<PersonelInfo> personelList=null;
+        protected override async Task OnInitializedAsync()
+        {
+            tempUsername="root";
+            tempPassword=".";
+            loginControl=false;
+            Info=new PersonelInfo{Name_Surname="Fakihe Gunindi",Department="House Wife",Github="Ramazan-xcod3r"};
+            personelList=new List<PersonelInfo>{
+                new PersonelInfo{Name_Surname="Jenifer Lopez",Department="N11",Github="John-Steve"},
+                Info
+                };
+        }
+        private void loginControlMethod(){
+            if (tempUsername=="root" && tempPassword==".")
+            {
+                loginControl=true;
+            }
+        }
+        class PersonelInfo{
+            public string Name_Surname { get; set; }
+            public string Department { get; set; }
+            public string Github { get; set; }
+        }
+    }
