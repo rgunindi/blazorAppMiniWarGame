@@ -1,4 +1,9 @@
 @page "/personel"
+<style>
+    body {
+        background-color: #b9b6c2;
+    }
+</style>
  @using vsCodePersonelBlazorApp.Shared;
  <h1>Welcom to Personel Page Please Login</h1>
   <input type="text" @bind-value="tempUsername"/>
@@ -12,7 +17,7 @@
     @if (loginControl)
     {
         loginControl=false;
-        <table class="table">
+        <table class="table table-striped table-dark">
             <thead class="thead-dark">
             <tr>
             <th>Name Surname</th>
@@ -20,6 +25,8 @@
             <th>Github_Link</th>
             </tr>
              </thead>
+             <tbody>
+
              @foreach (var item in personelList)
              {  <tr>
                  <td>@item.Name_Surname</td>
@@ -27,13 +34,14 @@
                  <td>@item.Github</td>
                 </tr>
              }
+             </tbody>
            
         </table>
     }
     @code {
         private string tempUsername{get;set;}
         private string tempPassword { get; set; }
-        public bool loginControl { get; set; }
+        private bool loginControl { get; set; }
         PersonelInfo Info=null;
         List<PersonelInfo> personelList=null;
         protected override async Task OnInitializedAsync()

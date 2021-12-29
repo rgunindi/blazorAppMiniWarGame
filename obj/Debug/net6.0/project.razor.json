@@ -177,6 +177,59 @@
         }
       },
       {
+        "HashCode": -2124646751,
+        "Kind": "Components.Component",
+        "Name": "vsCodePersonelBlazorApp.Shared.SurveyPrompt",
+        "AssemblyName": "vsCodePersonelBlazorApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "vsCodePersonelBlazorApp.Shared.SurveyPrompt"
+        }
+      },
+      {
+        "HashCode": -2123272742,
+        "Kind": "Components.Component",
+        "Name": "vsCodePersonelBlazorApp.Shared.SurveyPrompt",
+        "AssemblyName": "vsCodePersonelBlazorApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "vsCodePersonelBlazorApp.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "vsCodePersonelBlazorApp.Shared.SurveyPrompt",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 1794583841,
         "Kind": "Components.Component",
         "Name": "vsCodePersonelBlazorApp.Shared.MainLayout",
@@ -269,59 +322,6 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "vsCodePersonelBlazorApp.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -2124646751,
-        "Kind": "Components.Component",
-        "Name": "vsCodePersonelBlazorApp.Shared.SurveyPrompt",
-        "AssemblyName": "vsCodePersonelBlazorApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "vsCodePersonelBlazorApp.Shared.SurveyPrompt"
-        }
-      },
-      {
-        "HashCode": -2123272742,
-        "Kind": "Components.Component",
-        "Name": "vsCodePersonelBlazorApp.Shared.SurveyPrompt",
-        "AssemblyName": "vsCodePersonelBlazorApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "vsCodePersonelBlazorApp.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "vsCodePersonelBlazorApp.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
