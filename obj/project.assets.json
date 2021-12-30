@@ -20,7 +20,7 @@
       "outputPath": "/Users/xcoder/Projects/vsCodePersonelBlazorApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/xcoder/.nuget/NuGet/NuGet.Config"
+        "/Users/xcoder/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"

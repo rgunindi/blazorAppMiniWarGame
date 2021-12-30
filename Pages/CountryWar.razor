@@ -1,0 +1,145 @@
+﻿@page "/countries"
+@*<TitleComponent PagesName="WAR"></TitleComponent>*@
+
+
+<div class="split left">
+
+    <div class="centered">
+        <button type="submit" onclick="@valueChanger">War!!!!!!</button>
+        <p>@kazananTaraf</p>
+        <p>USA Miliraty Count: @(usaTotalCount * 10000)</p>
+        <table>
+            @if (usaTotalCount >= 0 && savasBittiMi)
+                {
+                    for (int j = 0; j < rowCountUsa; j++)
+                    {
+                        <tr>
+                          <td>
+                              @for (int i = 1; i <= 5; i++)
+                                  {
+                                      if (usaTotalCount >= tableCountUsa)
+                                      {
+                                      <img src="@imgSrc" width="50 " height="50">
+                                          tableCountUsa++;
+                                      }
+                                      else { rowCountUsa = 0; }
+
+                                  }
+                          </td>
+                        </tr>
+                       
+                    }
+
+
+                }
+        </table>
+    </div>
+</div>
+
+<div class="split right">
+    <div class="centered">
+        <p>@kazananTaraf</p>
+        <p>JAPON Miliraty Count: @(jpnTotalCount * 10000)</p>
+
+        <table>
+            @if (jpnTotalCount >= 0 && savasBittiMi)
+            {
+                for (int j = 0; j < rowCountJpn; j++)
+                {
+                    <tr>
+                        <td>
+                            @for (int i = 1; i <= 5; i++)
+                            {
+                                if (jpnTotalCount >= tableCountJpn)
+                                {
+                                    <img src="@imgSrcJpn" width="50 " height="50">
+                                    tableCountJpn++;
+                                }
+                                else { rowCountJpn = 0; }
+
+                            }
+                        </td>
+                    </tr>
+
+                }
+
+
+            }
+        </table>
+    </div>
+
+</div>
+
+
+
+
+
+
+@code {
+    private int tableCountUsa { get; set; }
+    private int rowCountUsa { get; set; }
+    private int tableCountJpn { get; set; }
+    private int rowCountJpn { get; set; }
+    private int usaValue { get; set; }
+    private int jpnValue { get; set; }
+    private int baseValue { get; set; }
+    private int usaTotalCount { get; set; }
+    private int jpnTotalCount { get; set; }
+    private int usaOynananAsker { get; set; }
+    private int jpnOynananAsker { get; set; }
+    private string kazananTaraf { get; set; }
+    private Boolean savasBittiMi { get; set; }
+    private string imgSrc { get; set; }
+    public string imgSrcJpn { get; set; }
+    Random random;
+    private void valueChanger()
+    {
+        if (savasBittiMi)
+        {
+            rowCountUsa = 3; tableCountUsa = 1;
+            rowCountJpn = 3;tableCountJpn = 1;
+            usaValue = random.Next(0, 4);
+            usaValue = usaValue == 0 ? 1 : usaValue;
+            jpnValue = random.Next(0, 4);
+            jpnValue = jpnValue == 0 ? 1 : jpnValue;
+
+            usaOynananAsker = usaTotalCount - usaValue;
+            jpnOynananAsker = jpnTotalCount - jpnValue;
+
+            if (usaValue > jpnValue)
+            {   if(usaTotalCount>0)
+                usaTotalCount += jpnValue;
+                jpnTotalCount -= jpnValue;
+            }
+            else
+            {   if(jpnTotalCount>0)
+                jpnTotalCount += usaValue;
+                usaTotalCount -= usaValue;
+            }
+            @*kazananUSA:
+                    kazananTaraf = "USA SAVASI KAZANDI!";
+                kazananJPN:
+                    kazananTaraf = "JAPONYA SAVASI KAZANDI!";*@
+            if (jpnTotalCount <= 0)
+            {
+                kazananTaraf = "USA SAVASI KAZANDI!"; savasBittiMi = false;
+                //  goto kazananUSA;
+                jpnTotalCount = 0;
+            }
+            else if (usaTotalCount <= 0)
+            {
+                kazananTaraf = "JAPONYA SAVASI KAZANDI!"; savasBittiMi = false;
+                //            goto kazananJPN;
+                usaTotalCount = 0;
+            }
+        }
+    }
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();tableCountUsa = 1; rowCountUsa = 3; tableCountJpn = 1; rowCountJpn = 3;
+        random = new Random(); baseValue = 10; jpnValue = 0; usaValue = 0; usaTotalCount = 10; jpnTotalCount = 10;
+        savasBittiMi = true; imgSrc = "https://static.wikia.nocookie.net/metalslug/images/d/db/RebelRifleman.gif";
+        imgSrcJpn = "https://static.wikia.nocookie.net/metalslug/images/7/7f/RebelGrenade.gif";
+    }
+}
+

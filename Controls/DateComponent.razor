@@ -1,0 +1,10 @@
+﻿<h1 class="alert alert-primary">@dateTimeNow.ToString("f")</h1>
+@code {
+    DateTime dateTimeNow;
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        dateTimeNow = DateTime.Now;
+    }
+}
+

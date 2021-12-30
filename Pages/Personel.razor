@@ -1,10 +1,9 @@
 @page "/personel"
-<style>
-    body {
-        background-color: #b9b6c2;
-    }
-</style>
- @using vsCodePersonelBlazorApp.Shared;
+@inherits dateTimeBaseComponent
+
+@using vsCodePersonelBlazorApp.Shared;
+
+DateTime Universal: @GetDateTime()
  <h1>Welcom to Personel Page Please Login</h1>
   <input type="text" @bind-value="tempUsername"/>
     <input type="password" @bind-value="tempPassword" />
@@ -13,9 +12,9 @@
     <p></p>
     @* <p>TempUsername:@tempUsername</p>
     <p>TempPassword:<input type="password"@bind-value="tempPassword"/></p> *@
-    <p>Status:@loginControl</p>
+    <p>Status:@loginControl</p> &nbsp; 
     @if (loginControl)
-    {
+    {   <DateComponent></DateComponent>
         loginControl=false;
         <table class="table table-striped table-dark">
             <thead class="thead-dark">
@@ -49,9 +48,9 @@
             tempUsername="root";
             tempPassword=".";
             loginControl=false;
-            Info=new PersonelInfo{Name_Surname="Fakihe Gunindi",Department="House Wife",Github="Ramazan-xcod3r"};
+            Info=new PersonelInfo{Name_Surname="Isac Newton",Department= "Physics", Github="Ramazan-xcod3r"};
             personelList=new List<PersonelInfo>{
-                new PersonelInfo{Name_Surname="Jenifer Lopez",Department="N11",Github="John-Steve"},
+                new PersonelInfo{Name_Surname="Jenifer Lopez",Department="House Wife",Github="John-Steve"},
                 Info
                 };
         }

@@ -19,8 +19,20 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/xcoder/Projects/vsCodePersonelBlazorApp/Controls/DateComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29udHJvbHMvRGF0ZUNvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/xcoder/Projects/vsCodePersonelBlazorApp/Controls/TitleComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29udHJvbHMvVGl0bGVDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/xcoder/Projects/vsCodePersonelBlazorApp/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/xcoder/Projects/vsCodePersonelBlazorApp/Pages/CountryWar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRyeVdhci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/xcoder/Projects/vsCodePersonelBlazorApp/Pages/FetchData.razor]

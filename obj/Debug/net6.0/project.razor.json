@@ -12,6 +12,39 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
+        "HashCode": -1849373033,
+        "Kind": "Components.Component",
+        "Name": "vsCodePersonelBlazorApp.BaseComponent.dateTimeBaseComponent",
+        "AssemblyName": "vsCodePersonelBlazorApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "dateTimeBaseComponent"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "vsCodePersonelBlazorApp.BaseComponent.dateTimeBaseComponent"
+        }
+      },
+      {
+        "HashCode": -2113555436,
+        "Kind": "Components.Component",
+        "Name": "vsCodePersonelBlazorApp.BaseComponent.dateTimeBaseComponent",
+        "AssemblyName": "vsCodePersonelBlazorApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "vsCodePersonelBlazorApp.BaseComponent.dateTimeBaseComponent"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "vsCodePersonelBlazorApp.BaseComponent.dateTimeBaseComponent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -1064185878,
         "Kind": "Components.Component",
         "Name": "vsCodePersonelBlazorApp.Pages.Counter",
@@ -45,6 +78,39 @@
         }
       },
       {
+        "HashCode": -96146785,
+        "Kind": "Components.Component",
+        "Name": "vsCodePersonelBlazorApp.Pages.CountryWar",
+        "AssemblyName": "vsCodePersonelBlazorApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CountryWar"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "vsCodePersonelBlazorApp.Pages.CountryWar"
+        }
+      },
+      {
+        "HashCode": 1914733466,
+        "Kind": "Components.Component",
+        "Name": "vsCodePersonelBlazorApp.Pages.CountryWar",
+        "AssemblyName": "vsCodePersonelBlazorApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "vsCodePersonelBlazorApp.Pages.CountryWar"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "vsCodePersonelBlazorApp.Pages.CountryWar",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -2113134632,
         "Kind": "Components.Component",
         "Name": "vsCodePersonelBlazorApp.Pages.FetchData",
@@ -74,6 +140,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "vsCodePersonelBlazorApp.Pages.FetchData",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1020436427,
+        "Kind": "Components.Component",
+        "Name": "vsCodePersonelBlazorApp.Pages.Haberlesme",
+        "AssemblyName": "vsCodePersonelBlazorApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Haberlesme"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "vsCodePersonelBlazorApp.Pages.Haberlesme"
+        }
+      },
+      {
+        "HashCode": -1187044748,
+        "Kind": "Components.Component",
+        "Name": "vsCodePersonelBlazorApp.Pages.Haberlesme",
+        "AssemblyName": "vsCodePersonelBlazorApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "vsCodePersonelBlazorApp.Pages.Haberlesme"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "vsCodePersonelBlazorApp.Pages.Haberlesme",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -144,35 +243,121 @@
         }
       },
       {
-        "HashCode": -1014364488,
+        "HashCode": 1449725778,
         "Kind": "Components.Component",
-        "Name": "vsCodePersonelBlazorApp.Shared.NavMenu",
+        "Name": "vsCodePersonelBlazorApp.App",
         "AssemblyName": "vsCodePersonelBlazorApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
+            "TagName": "App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "vsCodePersonelBlazorApp.Shared.NavMenu"
+          "Common.TypeName": "vsCodePersonelBlazorApp.App"
         }
       },
       {
-        "HashCode": 21130250,
+        "HashCode": -1525108904,
         "Kind": "Components.Component",
-        "Name": "vsCodePersonelBlazorApp.Shared.NavMenu",
+        "Name": "vsCodePersonelBlazorApp.App",
         "AssemblyName": "vsCodePersonelBlazorApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "vsCodePersonelBlazorApp.Shared.NavMenu"
+            "TagName": "vsCodePersonelBlazorApp.App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "vsCodePersonelBlazorApp.Shared.NavMenu",
+          "Common.TypeName": "vsCodePersonelBlazorApp.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1468156369,
+        "Kind": "Components.Component",
+        "Name": "vsCodePersonelBlazorApp.Controls.DateComponent",
+        "AssemblyName": "vsCodePersonelBlazorApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DateComponent"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "vsCodePersonelBlazorApp.Controls.DateComponent"
+        }
+      },
+      {
+        "HashCode": 1216232292,
+        "Kind": "Components.Component",
+        "Name": "vsCodePersonelBlazorApp.Controls.DateComponent",
+        "AssemblyName": "vsCodePersonelBlazorApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "vsCodePersonelBlazorApp.Controls.DateComponent"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "vsCodePersonelBlazorApp.Controls.DateComponent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1078868000,
+        "Kind": "Components.Component",
+        "Name": "vsCodePersonelBlazorApp.Controls.TitleComponent",
+        "AssemblyName": "vsCodePersonelBlazorApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "TitleComponent"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "PagesName",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "PagesName"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "vsCodePersonelBlazorApp.Controls.TitleComponent"
+        }
+      },
+      {
+        "HashCode": -576372287,
+        "Kind": "Components.Component",
+        "Name": "vsCodePersonelBlazorApp.Controls.TitleComponent",
+        "AssemblyName": "vsCodePersonelBlazorApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "vsCodePersonelBlazorApp.Controls.TitleComponent"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "PagesName",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "PagesName"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "vsCodePersonelBlazorApp.Controls.TitleComponent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -226,6 +411,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "vsCodePersonelBlazorApp.Shared.SurveyPrompt",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1014364488,
+        "Kind": "Components.Component",
+        "Name": "vsCodePersonelBlazorApp.Shared.NavMenu",
+        "AssemblyName": "vsCodePersonelBlazorApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "vsCodePersonelBlazorApp.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": 21130250,
+        "Kind": "Components.Component",
+        "Name": "vsCodePersonelBlazorApp.Shared.NavMenu",
+        "AssemblyName": "vsCodePersonelBlazorApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "vsCodePersonelBlazorApp.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "vsCodePersonelBlazorApp.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -322,300 +540,6 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "vsCodePersonelBlazorApp.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1449725778,
-        "Kind": "Components.Component",
-        "Name": "vsCodePersonelBlazorApp.App",
-        "AssemblyName": "vsCodePersonelBlazorApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "vsCodePersonelBlazorApp.App"
-        }
-      },
-      {
-        "HashCode": -1525108904,
-        "Kind": "Components.Component",
-        "Name": "vsCodePersonelBlazorApp.App",
-        "AssemblyName": "vsCodePersonelBlazorApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "vsCodePersonelBlazorApp.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "vsCodePersonelBlazorApp.App",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -200205677,
-        "Kind": "Components.Component",
-        "Name": "vsCodePersonelBlazorApp.blazorApp.Pages.Counter",
-        "AssemblyName": "vsCodePersonelBlazorApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "vsCodePersonelBlazorApp.blazorApp.Pages.Counter"
-        }
-      },
-      {
-        "HashCode": 780734245,
-        "Kind": "Components.Component",
-        "Name": "vsCodePersonelBlazorApp.blazorApp.Pages.Counter",
-        "AssemblyName": "vsCodePersonelBlazorApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "vsCodePersonelBlazorApp.blazorApp.Pages.Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "vsCodePersonelBlazorApp.blazorApp.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1121484987,
-        "Kind": "Components.Component",
-        "Name": "vsCodePersonelBlazorApp.blazorApp.Pages.FetchData",
-        "AssemblyName": "vsCodePersonelBlazorApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "vsCodePersonelBlazorApp.blazorApp.Pages.FetchData"
-        }
-      },
-      {
-        "HashCode": -492814665,
-        "Kind": "Components.Component",
-        "Name": "vsCodePersonelBlazorApp.blazorApp.Pages.FetchData",
-        "AssemblyName": "vsCodePersonelBlazorApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "vsCodePersonelBlazorApp.blazorApp.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "vsCodePersonelBlazorApp.blazorApp.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1086809303,
-        "Kind": "Components.Component",
-        "Name": "vsCodePersonelBlazorApp.blazorApp.Pages.Index",
-        "AssemblyName": "vsCodePersonelBlazorApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "vsCodePersonelBlazorApp.blazorApp.Pages.Index"
-        }
-      },
-      {
-        "HashCode": 1693856634,
-        "Kind": "Components.Component",
-        "Name": "vsCodePersonelBlazorApp.blazorApp.Pages.Index",
-        "AssemblyName": "vsCodePersonelBlazorApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "vsCodePersonelBlazorApp.blazorApp.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "vsCodePersonelBlazorApp.blazorApp.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -931177206,
-        "Kind": "Components.Component",
-        "Name": "vsCodePersonelBlazorApp.blazorApp.Pages.Personel",
-        "AssemblyName": "vsCodePersonelBlazorApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Personel"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "vsCodePersonelBlazorApp.blazorApp.Pages.Personel"
-        }
-      },
-      {
-        "HashCode": -1109694805,
-        "Kind": "Components.Component",
-        "Name": "vsCodePersonelBlazorApp.blazorApp.Pages.Personel",
-        "AssemblyName": "vsCodePersonelBlazorApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "vsCodePersonelBlazorApp.blazorApp.Pages.Personel"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "vsCodePersonelBlazorApp.blazorApp.Pages.Personel",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 447559732,
-        "Kind": "Components.Component",
-        "Name": "vsCodePersonelBlazorApp.blazorApp.Shared.MainLayout",
-        "AssemblyName": "vsCodePersonelBlazorApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MainLayout"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Body",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "Body",
-              "Components.ChildContent": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "vsCodePersonelBlazorApp.blazorApp.Shared.MainLayout"
-        }
-      },
-      {
-        "HashCode": 1919408615,
-        "Kind": "Components.Component",
-        "Name": "vsCodePersonelBlazorApp.blazorApp.Shared.MainLayout",
-        "AssemblyName": "vsCodePersonelBlazorApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "vsCodePersonelBlazorApp.blazorApp.Shared.MainLayout"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Body",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "Body",
-              "Components.ChildContent": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "vsCodePersonelBlazorApp.blazorApp.Shared.MainLayout",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1672324067,
-        "Kind": "Components.ChildContent",
-        "Name": "vsCodePersonelBlazorApp.blazorApp.Shared.MainLayout.Body",
-        "AssemblyName": "vsCodePersonelBlazorApp",
-        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Body",
-            "ParentTag": "MainLayout"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.None",
-          "Common.TypeName": "vsCodePersonelBlazorApp.blazorApp.Shared.MainLayout.Body",
-          "Components.IsSpecialKind": "Components.ChildContent"
-        }
-      },
-      {
-        "HashCode": -820239020,
-        "Kind": "Components.ChildContent",
-        "Name": "vsCodePersonelBlazorApp.blazorApp.Shared.MainLayout.Body",
-        "AssemblyName": "vsCodePersonelBlazorApp",
-        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Body",
-            "ParentTag": "vsCodePersonelBlazorApp.blazorApp.Shared.MainLayout"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.None",
-          "Common.TypeName": "vsCodePersonelBlazorApp.blazorApp.Shared.MainLayout.Body",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1843797252,
-        "Kind": "Components.Component",
-        "Name": "vsCodePersonelBlazorApp.blazorApp.Shared.NavMenu",
-        "AssemblyName": "vsCodePersonelBlazorApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "vsCodePersonelBlazorApp.blazorApp.Shared.NavMenu"
-        }
-      },
-      {
-        "HashCode": 351838134,
-        "Kind": "Components.Component",
-        "Name": "vsCodePersonelBlazorApp.blazorApp.Shared.NavMenu",
-        "AssemblyName": "vsCodePersonelBlazorApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "vsCodePersonelBlazorApp.blazorApp.Shared.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "vsCodePersonelBlazorApp.blazorApp.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -16906,6 +16830,11 @@
   "RootNamespace": "vsCodePersonelBlazorApp",
   "Documents": [
     {
+      "FilePath": "/Users/xcoder/Projects/vsCodePersonelBlazorApp/Pages/Haberlesme.razor",
+      "TargetPath": "Pages\\Haberlesme.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "/Users/xcoder/Projects/vsCodePersonelBlazorApp/Shared/NavMenu.razor",
       "TargetPath": "Shared\\NavMenu.razor",
       "FileKind": "component"
@@ -16936,6 +16865,16 @@
       "FileKind": "component"
     },
     {
+      "FilePath": "/Users/xcoder/Projects/vsCodePersonelBlazorApp/Pages/CountryWar.razor",
+      "TargetPath": "Pages\\CountryWar.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/xcoder/Projects/vsCodePersonelBlazorApp/Controls/TitleComponent.razor",
+      "TargetPath": "Controls\\TitleComponent.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "/Users/xcoder/Projects/vsCodePersonelBlazorApp/Pages/Index.razor",
       "TargetPath": "Pages\\Index.razor",
       "FileKind": "component"
@@ -16959,6 +16898,11 @@
       "FilePath": "/Users/xcoder/Projects/vsCodePersonelBlazorApp/_Imports.razor",
       "TargetPath": "_Imports.razor",
       "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "/Users/xcoder/Projects/vsCodePersonelBlazorApp/Controls/DateComponent.razor",
+      "TargetPath": "Controls\\DateComponent.razor",
+      "FileKind": "component"
     },
     {
       "FilePath": "/Users/xcoder/Projects/vsCodePersonelBlazorApp/Pages/Error.cshtml",
